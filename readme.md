@@ -49,8 +49,8 @@ The analysis follows these key steps:
 
 ## Results
 
-*   **Baseline Accuracy:** The initial linear SVC achieved a cross-validated accuracy of approximately **[Insert your baseline cross_val_score result here, e.g., ~80.1%]** on the training data.
-*   **Tuned Model Accuracy (CV):** Randomized Search identified optimal hyperparameters, resulting in a cross-validated accuracy of **[Insert your random_search.best_score_ result here, e.g., ~82%]** on the training data.
+*   **Baseline Accuracy:** The initial linear SVC achieved a cross-validated accuracy of approximately **80.1%** on the training data.
+*   **Tuned Model Accuracy (CV):** Randomized Search identified optimal hyperparameters, resulting in a cross-validated accuracy of **81.5** on the training data.
 *   **Test Set Performance:** The final tuned model achieved an accuracy of **[Insert accuracy from your classification_report on the test set]** on the unseen test data. The classification report and confusion matrix provide further details on its predictive performance for both survivors and non-survivors.
 
 ## Technologies Used
